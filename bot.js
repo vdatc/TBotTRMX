@@ -1,5 +1,5 @@
 /* Weem nya um ;v
-Script By MrDevils
+Script By ...
 
 kalau makai makai aja ngak usah nanyak apa itu apikey, apa itu rest api, apa itu api, kenapa ini nyenyenyenye 
 dah lah
@@ -19,7 +19,7 @@ dilarang keras untuk menjual belikan script ini
 */
 const Telegraf = require('telegraf')
 
-const bot = new Telegraf('Your_Token')
+const bot = new Telegraf('8685264373:AAG37cguAynrlNsVH4f0FmS-d927UMcjTug')
 const axios = require('axios')
 const helpMessage = `Katakan sesuatu kepada saya\n/start - untuk memulai bot\n/menu - untuk menampilkan list menu`;
 bot.use((ctx, next) => {
